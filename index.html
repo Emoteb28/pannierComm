@@ -1,0 +1,31 @@
+<html>
+	<head>
+        <meta charset="UTF-8" />
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.js"></script>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+		<script type="text/javascript" src="app.js"></script>
+        <link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
+	</head>
+	<body>
+        <div id="wrapper">
+            <div id="products">
+                <!-- afficher ici la liste de tous les produits disponibles -->
+            </div>
+            <div id="panier" class="panier">
+                <h3>Votre panier</h3>
+                <div id="panierContent">
+                    
+                    <!-- afficher ici la liste des produits qui ont été ajoutés dans le panier -->
+                </div>
+                <div id="panier-total">
+                    <div id="panier-nbProduits" style="display: none"><span id="panier-nbProduits-valides">0</span>/<span id="panier-nbProduits-total">0</span> produits validés</div>
+                    <div id="total">0€</div>
+                </div>
+                <div id="panier-actions">
+                    <button id="empty">Vider le panier</button>
+                    <button id="buy">Commander</button>
+                </div>
+            </div>
+        </div>
+	</body>
+</html>
